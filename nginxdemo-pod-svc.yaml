@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginxdemo
+  name: nginxdemo
+spec:
+  containers:
+  - image: nginxdemos/hello
+    name: nginxdemo
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: nginxdemo
+  name: nginxdemo-svc
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    run: nginxdemo
+  type: NodePort
