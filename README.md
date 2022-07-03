@@ -67,8 +67,10 @@ To run this yaml file on your minikube cluster (or any other kubernetes cluster)
 =======================================================================================================
 
 
-## Must try out:
+## Helpful links:
+
 1. Detailed guide for [RedHat OpenShift 4.10 installation on GCP using UPI (User Provisioned Infrastructure method)](https://github.com/Hamza-Mandviwala/OCP4.10.3-install-GCP-UPI)
+2. Understanding a [Two-tier Kubernetes application architecture on AWS](https://github.com/Hamza-Mandviwala/two-tier-kubernetes-app-aws-architecture)
 
     
 
