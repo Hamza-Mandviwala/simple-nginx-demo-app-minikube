@@ -59,8 +59,16 @@ To run this yaml file on your minikube cluster (or any other kubernetes cluster)
 4. We can now try to access the nginxdemo UI through the browser using the IP address of the minikube VM and port 32165. Alternatively, we can also run the command `minikube service nginxdemo-svc` (where 'nginxdemo-svc' is the service name) which will automatically open up the browser tab with the nginxdemo UI:
 
     <img width="1792" alt="Screenshot 2022-07-03 at 12 35 36 PM" src="https://user-images.githubusercontent.com/53118271/177031634-c6c9ed4c-214c-439f-8778-71cd3a098aeb.png">
-    
+
+=======================================================================================================
+
 **Congratulations! We just deployed a simple nginxdemo application on a locally hosted minikube cluster.**
+
+=======================================================================================================
+
+
+## Must try out:
+1. Detailed guide for [RedHat OpenShift 4.10 installation on GCP using UPI (User Provisioned Infrastructure method)](https://github.com/Hamza-Mandviwala/OCP4.10.3-install-GCP-UPI)
 
     
 
