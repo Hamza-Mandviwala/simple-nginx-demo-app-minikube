@@ -44,11 +44,15 @@ To run this yaml file on your minikube cluster (or any other kubernetes cluster)
     
        git clone https://github.com/Hamza-Mandviwala/simple-nginx-demo-app-minikube.git
 
-2. Run the following command. This should create the `nginxdemo` pod and the `nginxdemo-svc` service.
+2. Navigate into the cloned repo directory:
+       
+       cd simple-nginx-demo-app-minikube
+       
+3. Run the following command. This should create the `nginxdemo` pod and the `nginxdemo-svc` service.
 
        kubectl apply -f nginxdemo-pod-svc.yaml
        
-3. Run a `kubectl get svc` command to get the port number on which the nginxdemo-svc service will be serving the UI:
+4. Run a `kubectl get svc` command to get the port number on which the nginxdemo-svc service will be serving the UI:
 
     Output:
     
@@ -56,7 +60,7 @@ To run this yaml file on your minikube cluster (or any other kubernetes cluster)
     
     As we can see from the above screenshot, port number 32165 on the machine will be used to serve the app requests.
     
-4. We can now try to access the nginxdemo UI through the browser using the IP address of the minikube VM and port 32165. Alternatively, we can also run the command `minikube service nginxdemo-svc` (where 'nginxdemo-svc' is the service name) which will automatically open up the browser tab with the nginxdemo UI:
+5. We can now try to access the nginxdemo UI through the browser using the IP address of the minikube VM and port 32165. Alternatively, we can also run the command `minikube service nginxdemo-svc` (where 'nginxdemo-svc' is the service name) which will automatically open up the browser tab with the nginxdemo UI:
 
     <img width="1792" alt="Screenshot 2022-07-03 at 12 35 36 PM" src="https://user-images.githubusercontent.com/53118271/177031634-c6c9ed4c-214c-439f-8778-71cd3a098aeb.png">
 
