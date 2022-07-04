@@ -64,11 +64,11 @@ To run this yaml file on your minikube cluster (or any other kubernetes cluster)
 
     <img width="1792" alt="Screenshot 2022-07-03 at 12 35 36 PM" src="https://user-images.githubusercontent.com/53118271/177031634-c6c9ed4c-214c-439f-8778-71cd3a098aeb.png">
 
-==========================================================================================
+====================================================================================
 
 **Congratulations! We just deployed a simple nginxdemo application on a locally hosted minikube cluster.**
 
-==========================================================================================
+====================================================================================
 
 
 ## Helpful links:
